@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url("../font/Vollkorn-VariableFont_wght.ttf") format("truetype");
+}
+body, html {
+    background-color: #172835;
+    margin: 0;
+    padding: 0;
+}
+.middle-space{
+    background-color: #15384c;
+    color: white;
+    font-size: 34px;
+}
+.container {
+    margin-left: 450px;
+    margin-right: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons {
+    display: flex;
+    margin-left: 10px;
+}
+
+button {
+    padding: 4px 8px;
+    background: #182936;
+    color: white;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    font-family: MyCustomFont;
+}
+form {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.logo-text {
+    margin: 0px;
+    font-size: 34px;
+    font-family: MyCustomFont;
+}
+/* #172835  #182936 */
